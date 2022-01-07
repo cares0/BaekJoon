@@ -14,6 +14,7 @@ public class Main {
 		// 그래서 BigInteger 객체를 새로 만들지 않아도 된다.
 		 
 		
+		// 답안
 		Scanner sc = new Scanner(System.in);
 		
 		BigInteger a = sc.nextBigInteger();
