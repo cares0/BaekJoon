@@ -9,25 +9,20 @@ public class Main {
 		
 		int num = sc.nextInt();
 		
-		switch (num/10) {
-		case 10 :
-		case 9 :
+		if (num >= 90) {
 			System.out.println("A");
-			break;
-		case 8 :
+		} else if (num >= 80) {
 			System.out.println("B");
-			break;
-		case 7 :
+		} else if (num >= 70 ) {
 			System.out.println("C");
-			break;
-		case 6 :
+		} else if (num >= 60) {
 			System.out.println("D");
-			break;
-		default :
-			System.out.println("F");	
+		} else {
+			System.out.println("F");
 		}
 		
-
 	}
 
+	// if else 나 switch case나 메모리, 시간차이는 크게 없는듯
+	// if else가 메모리를 조금 더 썼고(정말 미미함) 시간은 조금 더 단축함 (정말 미미함)
 }
